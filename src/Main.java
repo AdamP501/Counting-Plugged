@@ -8,7 +8,6 @@ public class Main {
         ArrayList<Word> words = new ArrayList<Word>();
         ArrayList<String> commonWords = new ArrayList<String>(0);
 
-
         //populate the commonWords arraylist
         File file1 = new File("commonWords.txt");
         Scanner scanner1 = new Scanner(file1);
